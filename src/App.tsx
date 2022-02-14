@@ -1,6 +1,7 @@
 import { Card } from './components/card';
 import { Container } from './components/container';
 import { FormHeader } from './components/formHeader';
+import { FormRow } from './components/formRow';
 import classes from './App.module.css';
 
 function App() {
@@ -14,9 +15,7 @@ function App() {
       </header>
         <Card>
           <FormHeader>about</FormHeader>
-          <FormHeader>about</FormHeader>
-          <FormHeader>about</FormHeader>
-          <FormHeader>about</FormHeader>
+          <FormRow title='Title' inputType='textarea' required />
         </Card>
     </div>
   );

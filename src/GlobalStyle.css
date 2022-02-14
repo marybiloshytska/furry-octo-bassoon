@@ -16,9 +16,11 @@
   :root {
     --primary-blue: #285A94;
     --dark-blue: #123C6B;
+    --light-blue: #86A3C5;
     --bg-gray: #F7F7F7;
     --shadow: #EAEBEB;
     --border: #DADADC;
+    --error: #FFAEB0;
   }
 
   h1 {

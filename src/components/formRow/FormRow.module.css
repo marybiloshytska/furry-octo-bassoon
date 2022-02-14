@@ -1,0 +1,15 @@
+.formRow {
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+}
+
+.rowTitle {
+    color: var(--light-blue);
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.star {
+    display: inline;
+    color: var(--error);
+}
