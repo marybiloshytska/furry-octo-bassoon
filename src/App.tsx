@@ -1,5 +1,6 @@
 import { Card } from './components/card';
 import { Container } from './components/container';
+import { FormHeader } from './components/formHeader';
 import classes from './App.module.css';
 
 function App() {
@@ -11,7 +12,12 @@ function App() {
           <h1>New Event</h1>
         </Container>
       </header>
-        <Card>bla</Card>
+        <Card>
+          <FormHeader>about</FormHeader>
+          <FormHeader>about</FormHeader>
+          <FormHeader>about</FormHeader>
+          <FormHeader>about</FormHeader>
+        </Card>
     </div>
   );
 }

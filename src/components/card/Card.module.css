@@ -6,4 +6,7 @@
     border-radius: 6px;
     box-shadow: 3px 3px 10px var(--shadow);
     padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
